@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D1A2D;
+}
+
+.container {
+    height: 400px;
+    width: 250px;
+    border-radius: 10px;
+    background: #14273E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    
+}
+
+.container img {
+    height: 215px;
+    width: 220px;
+    border-radius: 7px;
+}
+
+.container h1 {
+    color: white;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.container p {
+    color: #999ea5;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.div_allitens {
+    width: 220px;
+}
+
+.div_tagdate {
+    margin-top: 10px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.div_tag img {
+    height: 12px;
+    width: 12px;
+}
+
+.div_tag span {
+    margin-left: 3px;
+    font-size: 14px;
+    color: #00FFF8;
+}
+
+.div_date {
+    display: flex;
+    align-items: center;
+}
+
+
+.div_date img {
+    height: 15px;
+    width: 15px;
+    margin-right: 4px;
+}
+
+.div_date span {
+    color: #8BACD9;
+    font-size: 14px;
+}
+
+.div_user {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid  #354050;
+    padding-top: 10px;
+}
+
+.div_user img {
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.div_user span {
+    margin-left: 8px;
+    color: #8BACD9;
+    font-size: 12px;
+}
+
+.div_user h2 {
+    font-size: 12px;
+    color: white;
+    margin-right: 42px;
+}
